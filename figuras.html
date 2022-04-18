@@ -19,7 +19,7 @@
                 <input type="button" value="Calcular perímetro" onclick="calcularPerimetroCuadrado()">
                 <input type="button" value="Calcular área"  onclick="calcularAreaCuadrado()">            
             </label>
-            <p> <br>  Escribe cuanto mide los lados de tu triángulo:</p>
+             <br>  Escribe cuanto mide los lados de tu triángulo:
             <label for="InputTrianguloA">
                 <br> Lado A:
                 <input type="number" id="InputTrianguloA">
@@ -28,14 +28,40 @@
                 Lado B:
                 <input type="number" id="InputTrianguloB">
             </label>
-            <label for="InputTrianguloC">
-                Lado C:
-               <input type="number" id="InputTrianguloC">
+            <label for="InputTrianguloBase">
+                Base:
+               <input type="number" id="InputTrianguloBase">
            </label>
-
+           <label for="InputTrianguloAltura">
+               Altura:
+             <input type="number" id="InputTrianguloAltura">
+           </label>
+           
             <input type="button" value="Calcular perímetro" onclick="calcularPerimetroTriangulo()">
             <input type="button" value="Calcular area" onclick="calcularAreaTriangulo()">
+            
+           <label for=">InputCirculo">
+            <br>  Escribe cuanto mide el radio de tu círculo:
+            <input type="number" id="InputCirculo">
+            <input type="button" value="Calcular perímetro" onclick="calcularPerimetroCirculo()">
+            <input type="button" value="Calcular area" onclick="calcularAreaCirculo()">
+        </label>
+        <br> 
+    <label for="inputIsocelesLadoA">
+        Lado A:
+        <input type="number" id="inputIsocelesLadoA">
+    </label>
+    <label for="inputIsocelesLadoB">
+        Lado B:
+        <input type="number" id="inputIsocelesLadoB">
+    </label>
+    <label for="inputIsocelesLadoC">
+        Lado C:
+        <input type="number" id="inputIsocelesLadoC">
+    </label>
+        <input type="button" value="isoceles?" onclick="calcularAlturaIsoceles()">
         </form>
+       
 
     </main>
 
